@@ -15,6 +15,7 @@ $(document).ready(function() {
         	"</div>" +
       		"</li>"
       	);
+      	$("#shopping-list-entry").val("");
 	});
 
 	$(".shopping-list").on('click', '.shopping-item-toggle', function() {
